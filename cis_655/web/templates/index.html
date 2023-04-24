@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MARS</title>
+</head>
+<style>
+    td, body, input {
+        font-size: 9pt;
+        font-family: arial;
+    }
+</style>
+<body>
+<form action = "/" method = "POST">
+
+<div>EDITOR</div>
+<textarea
+        style="width: 400px; height: 400px;"
+        name="editor"></textarea>
+
+<p><input type = "submit" value = "Run" /></p>
+
+
+</form>
+
+
+      {% if result is defined %}
+{{ result['editor'] }}
+<div>Values (remove when debugging complete):</div>
+  <table border = 1>
+    {% for key, value in result.items() %}
+
+    <tr>
+       <th> {{ key }} </th>
+       <td> {{ value }} </td>
+    </tr>
+
+    {% endfor %}
+ </table>
+      {% endif %}
+
+</body>
+</html>
