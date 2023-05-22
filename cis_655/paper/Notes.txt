@@ -1,0 +1,6 @@
+FINANCE
+-----------------------
+https://www.acecloudhosting.com/blog/how-gpu-computing-improve-financial-analytics/
+http://people.maths.ox.ac.uk/~gilesm/talks/omi_talk.pdf
+https://people.maths.ox.ac.uk/gilesm/talks/pp10_key.pdf
+https://cavazos-lab.github.io/FinanceBench/resources/AcceleratingFinancialApplicationsOnTheGPU-paper.pdf
